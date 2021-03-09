@@ -5,10 +5,10 @@ This project works on generaing word clouds of News Title according to Sustainab
 Here is the main workflow
 ![alt text](https://github.com/zwang752/Wordcloud/blob/main/Wordcloud.png)
 
-For step 1, we found outliers through observing SDG time series data of companies. This step locate which day we are looking into.
+Step 1, find outliers through observing SDG time series data of companies. This step locate which specific days we should focus.
 
-For step 2, we extracted key words from news URLs and matched their similarity to a specific SDG. (NLP was used)
+Step 2, extract key words from news URLs and match their similarity to a specific SDG. (NLP is used)
 
-For step 3, we plot wordcloud to visualize key words.
+Step 3, plot wordcloud to visualize key words.
 
 ![alt text](https://github.com/zwang752/Wordcloud/blob/main/Sample%20output.png)
